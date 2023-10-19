@@ -5,7 +5,7 @@ export const checkValidEmailAndPassword = (email, password) => {
 
   if (!isEmailValid) return "Email ID is not valid";
   if (!isPasswordValid) return "Password is not valid";
-  return;
+  return null;
 };
 
 export const checkValidNameAndEmailAndPassword = (email, password, name) => {
